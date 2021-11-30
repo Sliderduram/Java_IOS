@@ -12,5 +12,9 @@ public class OperLog {
 
         System.out.println("Ex.  3a: " + res );
         //System.out.println("Ex.  3a: " + ((v1-v2) == (v3^v2)) );
+        System.out.println("Ex.  3b: " + (! ((20 % 4) == 1) || (9 != 9)) );
+
+        System.out.println("Resultado2: " + (! ((20 % 4 ) == 1) || (9 != 9)));
+
     } // fim do método main
 } // fim da classe OperLog
